@@ -66,6 +66,7 @@ class Client
         //ipam
         'aggregates' => 'IPAM\Aggregates',
         'ipAddresses' => 'IPAM\IpAddresses',
+        'asns' => 'IPAM\ASNs',
         'l2vpn' => 'IPAM\L2vpn',
         'l2vpnTerminations' => 'IPAM\L2vpnTerminations',
         'prefixes' => 'IPAM\Prefixes',

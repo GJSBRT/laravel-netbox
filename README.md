@@ -418,6 +418,14 @@ NetBox::ipAddresses()->show(int $id, array $params)
 ```
 
 ```php
+NetBox::asns()->list(array $params)
+NetBox::asns()->add(array $params)
+NetBox::asns()->remove(int $id, array $params)
+NetBox::asns()->edit(int $id, array $params)
+NetBox::asns()->show(int $id, array $params)
+```
+
+```php
 NetBox::prefixes()->list(array $params)
 NetBox::prefixes()->add(array $params)
 NetBox::prefixes()->remove(int $id, array $params)
